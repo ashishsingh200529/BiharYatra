@@ -149,6 +149,7 @@
                         <th>Travel Date</th>
                         <th>Paid</th>
                         <th>Status</th>
+                        <th class="text-end">Actions</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -174,6 +175,9 @@
                                                 <span class="badge bg-danger-subtle text-danger border border-danger-subtle rounded-pill">${b.status}</span>
                                             </c:otherwise>
                                         </c:choose>
+                                    </td>
+                                    <td class="text-end">
+                                        <a href="${pageContext.request.contextPath}/invoice?bookingNo=${b.bookingNo}" class="btn btn-outline-danger btn-sm font-semibold" title="Generate Official GST Tax Invoice"><i class="bi bi-file-earmark-receipt-fill me-1"></i> GST Bill</a>
                                     </td>
                                 </tr>
                             </c:forEach>

@@ -117,6 +117,9 @@
                                             
                                             <!-- View details/ticket -->
                                             <a href="${pageContext.request.contextPath}/ticket?bookingNo=${b.bookingNo}" class="btn btn-brand btn-sm" title="View Ticket"><i class="bi bi-eye"></i></a>
+                                            
+                                            <!-- Admin Official GST Bill Generator -->
+                                            <a href="${pageContext.request.contextPath}/invoice?bookingNo=${b.bookingNo}" class="btn btn-outline-danger btn-sm font-semibold" title="Generate Official GST Tax Invoice"><i class="bi bi-file-earmark-receipt-fill me-1"></i> GST Bill</a>
                                         </div>
                                     </td>
                                 </tr>
