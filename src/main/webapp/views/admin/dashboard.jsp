@@ -95,6 +95,7 @@
                 <hr class="my-3">
                 <div class="list-group list-group-flush small">
                     <a href="${pageContext.request.contextPath}/admin/packages" class="list-group-item list-group-item-action border-0 py-2 ps-0 text-dark font-medium"><i class="bi bi-airplane me-2 text-danger"></i> Manage Packages</a>
+                    <a href="${pageContext.request.contextPath}/admin/users" class="list-group-item list-group-item-action border-0 py-2 ps-0 text-primary font-bold"><i class="bi bi-people-fill me-2 text-primary"></i> Registered Users & Password Audit</a>
                     <a href="${pageContext.request.contextPath}/admin/bookings" class="list-group-item list-group-item-action border-0 py-2 ps-0 text-dark font-medium"><i class="bi bi-receipt me-2 text-danger"></i> Manage Bookings</a>
                     <a href="${pageContext.request.contextPath}/admin/guides" class="list-group-item list-group-item-action border-0 py-2 ps-0 text-dark font-medium"><i class="bi bi-patch-check-fill me-2 text-danger"></i> Manage Tour Guides</a>
                     <a href="${pageContext.request.contextPath}/admin/helpdesk" class="list-group-item list-group-item-action border-0 py-2 ps-0 text-danger font-bold"><i class="bi bi-headset me-2 text-danger"></i> Tourist Complaints & Helpdesk</a>
