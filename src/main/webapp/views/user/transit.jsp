@@ -288,7 +288,17 @@
 
     <!-- BSRTC Volvo AC Bus Routes Table -->
     <div class="glass-card p-4 border bg-white rounded-4 shadow-sm">
-        <h4 class="fw-bold text-dark mb-4"><i class="bi bi-bus-front-fill text-primary me-2"></i> BSRTC AC Volvo Express Bus Routes</h4>
+        <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
+            <div>
+                <span class="badge bg-primary mb-1">State Transport & Online Partners</span>
+                <h4 class="fw-bold text-dark mb-0"><i class="bi bi-bus-front-fill text-primary me-2"></i> BSRTC AC Volvo Express & Online Bus Booking</h4>
+            </div>
+            <div class="d-flex gap-2">
+                <a href="https://www.redbus.in" target="_blank" class="btn btn-danger btn-sm rounded-pill font-semibold px-3"><i class="bi bi-box-arrow-up-right me-1"></i> Book on RedBus</a>
+                <a href="https://www.makemytrip.com/bus-tickets/" target="_blank" class="btn btn-primary btn-sm rounded-pill font-semibold px-3"><i class="bi bi-box-arrow-up-right me-1"></i> Book on MakeMyTrip</a>
+            </div>
+        </div>
+
         <div class="table-responsive">
             <table class="table align-middle table-hover small mb-0">
                 <thead class="table-light">
@@ -297,7 +307,7 @@
                         <th>Route</th>
                         <th>Departure Frequency</th>
                         <th>Fare</th>
-                        <th class="text-end">Action</th>
+                        <th class="text-end">Online Booking Partners</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -306,21 +316,52 @@
                         <td>Patna Bankipur ➔ Bodh Gaya Bus Stand</td>
                         <td>Every 30 Minutes (06:00 AM - 09:00 PM)</td>
                         <td class="fw-bold text-danger">Rs. 220</td>
-                        <td class="text-end"><a href="${pageContext.request.contextPath}/cabs" class="btn btn-outline-primary btn-sm font-semibold py-1 px-2.5">Book Seat</a></td>
+                        <td class="text-end">
+                            <div class="d-flex gap-1 justify-content-end">
+                                <a href="https://www.redbus.in/bus-tickets/patna-to-bodhgaya" target="_blank" class="btn btn-danger btn-sm font-semibold py-1 px-2">RedBus</a>
+                                <a href="https://www.makemytrip.com/bus-tickets/patna-bodh-gaya-bus-booking.html" target="_blank" class="btn btn-primary btn-sm font-semibold py-1 px-2">MakeMyTrip</a>
+                                <a href="${pageContext.request.contextPath}/cabs" class="btn btn-outline-dark btn-sm font-semibold py-1 px-2">BiharYatra</a>
+                            </div>
+                        </td>
                     </tr>
                     <tr>
                         <td class="fw-bold text-dark">BSRTC Rajdhani Express Bus</td>
                         <td>Patna ➔ Rajgir Bus Stand</td>
                         <td>Every 45 Minutes (06:30 AM - 08:00 PM)</td>
                         <td class="fw-bold text-danger">Rs. 180</td>
-                        <td class="text-end"><a href="${pageContext.request.contextPath}/cabs" class="btn btn-outline-primary btn-sm font-semibold py-1 px-2.5">Book Seat</a></td>
+                        <td class="text-end">
+                            <div class="d-flex gap-1 justify-content-end">
+                                <a href="https://www.redbus.in/bus-tickets/patna-to-rajgir" target="_blank" class="btn btn-danger btn-sm font-semibold py-1 px-2">RedBus</a>
+                                <a href="https://www.makemytrip.com/bus-tickets/patna-rajgir-bus-booking.html" target="_blank" class="btn btn-primary btn-sm font-semibold py-1 px-2">MakeMyTrip</a>
+                                <a href="${pageContext.request.contextPath}/cabs" class="btn btn-outline-dark btn-sm font-semibold py-1 px-2">BiharYatra</a>
+                            </div>
+                        </td>
                     </tr>
                     <tr>
                         <td class="fw-bold text-dark">BSRTC Eco Safari Superfast</td>
                         <td>Patna ➔ Valmiki Nagar Safari Stand</td>
                         <td>Daily 06:00 AM & 08:00 PM</td>
                         <td class="fw-bold text-danger">Rs. 450</td>
-                        <td class="text-end"><a href="${pageContext.request.contextPath}/cabs" class="btn btn-outline-primary btn-sm font-semibold py-1 px-2.5">Book Seat</a></td>
+                        <td class="text-end">
+                            <div class="d-flex gap-1 justify-content-end">
+                                <a href="https://www.redbus.in" target="_blank" class="btn btn-danger btn-sm font-semibold py-1 px-2">RedBus</a>
+                                <a href="https://www.makemytrip.com/bus-tickets/" target="_blank" class="btn btn-primary btn-sm font-semibold py-1 px-2">MakeMyTrip</a>
+                                <a href="${pageContext.request.contextPath}/cabs" class="btn btn-outline-dark btn-sm font-semibold py-1 px-2">BiharYatra</a>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold text-dark">BSRTC Intercity Deluxe Sleeper</td>
+                        <td>Muzaffarpur ➔ Gaya ➔ Ranchi</td>
+                        <td>Daily 07:30 PM & 09:30 PM</td>
+                        <td class="fw-bold text-danger">Rs. 550</td>
+                        <td class="text-end">
+                            <div class="d-flex gap-1 justify-content-end">
+                                <a href="https://www.redbus.in" target="_blank" class="btn btn-danger btn-sm font-semibold py-1 px-2">RedBus</a>
+                                <a href="https://www.makemytrip.com/bus-tickets/" target="_blank" class="btn btn-primary btn-sm font-semibold py-1 px-2">MakeMyTrip</a>
+                                <a href="${pageContext.request.contextPath}/cabs" class="btn btn-outline-dark btn-sm font-semibold py-1 px-2">BiharYatra</a>
+                            </div>
+                        </td>
                     </tr>
                 </tbody>
             </table>
